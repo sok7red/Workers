@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\WorkerService\\WorkerService.csproj": {}
+    "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\SimpleServiceFramework\\SimpleServiceFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\WorkerService\\WorkerService.csproj": {
+    "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\SimpleServiceFramework\\SimpleServiceFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\WorkerService\\WorkerService.csproj",
-        "projectName": "WorkerServiceWS",
-        "projectPath": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\WorkerService\\WorkerService.csproj",
+        "projectUniqueName": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\SimpleServiceFramework\\SimpleServiceFramework.csproj",
+        "projectName": "SimpleServiceFramework",
+        "projectPath": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\SimpleServiceFramework\\SimpleServiceFramework.csproj",
         "packagesPath": "C:\\Users\\sokost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\WorkerService\\obj\\",
+        "outputPath": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\SimpleServiceFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,24 +42,36 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "Microsoft.Extensions.Hosting": {
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[1.17.0, )"
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -72,12 +84,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.15, 5.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

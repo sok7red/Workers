@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>WorkerService</ActiveDebugProfile>
-    <_LastSelectedProfileId>C:\Users\sokost\source\repos\WorkerService\WorkerService\Properties\PublishProfiles\workerServiceCR.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Users\sokost\source\repos\Workers\Workers\WorkerService\WorkerService\Properties\PublishProfiles\workerServiceCR.pubxml</_LastSelectedProfileId>
     <NameOfLastUsedPublishProfile>workerServiceCR</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

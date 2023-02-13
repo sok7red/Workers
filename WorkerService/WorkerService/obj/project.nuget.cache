@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "elAiy1HI7hD09smpLdl61SilcXGUARMal4HbKteaUvyWZqefmAjl16skWp7YYzS0rqRjtWeZFWBijOnNLPGdMg==",
+  "dgSpecHash": "AhNqDGmrVlgrTQOJWkK49oQOKMuzbIelH0C3C7b8LubF9N2WGpQw1HZ6eerDIxFUFQTJPV48jx4HPZSVU1Ev9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\sokost\\source\\repos\\Workers\\Workers\\WorkerService\\WorkerService\\WorkerService.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,8 @@
     "C:\\Users\\sokost\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\sokost\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\sokost\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\sokost\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\sokost\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\sokost\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
   "logs": []
 }
